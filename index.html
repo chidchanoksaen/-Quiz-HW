@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- <body onload="alert('Hello World')"> -->
+
+<body>
+    <div class="quiz-container">
+      <h1>Home Work Quiz</h1>
+      <p id="question">1) PIM ย่อมาจากอะไร ?</p>
+      <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+      <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+      <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+      <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+      <p id="result1" style="color: green;"></p>
+
+      <p id="question">2) หมีพูห์สีอะไร?</p>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV_97C04GRV6xtKtc0s_N8OrXCLWtzwR5oz_LdQ7CW-A&s" alt="">
+      </div>
+      <button class="button" style="background-color: rgb(173, 230, 255); color: black;" onclick="checkAnswerColor('blue')">A) สีฟ้า</button>
+      <button class="button" style="background-color: rgb(255, 183, 237); color: black;" onclick="checkAnswerColor('pink')">B) สีชมพู</button>
+      <button class="button" style="background-color: rgb(255, 245, 131); color: black;" onclick="checkAnswerColor('yellow')">C) สีเหลือง</button>
+      <button class="button" style="background-color: rgb(255, 163, 163); color: black;" onclick="checkAnswerColor('red')">D) สีแดง</button>
+      <p id="result2" style="color: green;"></p>
+  </div>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
